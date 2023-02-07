@@ -9,7 +9,7 @@
 		<DocSubtype UniqueId="6d91798f-350e-4e74-9e7a-5dc82f29824a" DefinedType="IfcWallStandardCase" />
 	</Subtypes>
 	<Attributes>
-		<DocAttribute Name="PredefinedTyp" UniqueId="a2fe4f73-a12c-42fa-9516-3c0a0d94e105" DefinedType="IfcWallTypeEnum" AttributeFlags="1">
+		<DocAttribute Name="PredefinedType" UniqueId="a2fe4f73-a12c-42fa-9516-3c0a0d94e105" DefinedType="IfcWallTypeEnum" AttributeFlags="1">
 			<Documentation>Predefined generic type for a wall that is specified in an enumeration. There may be a property set given specifically for the predefined types.
 &gt; NOTE&amp;nbsp; The _PredefinedType_ shall only be used, if no _IfcWallType_ is assigned, providing its own _IfcWallType.PredefinedType_.
 
