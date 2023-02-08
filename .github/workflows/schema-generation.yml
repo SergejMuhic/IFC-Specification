@@ -25,7 +25,7 @@ jobs:
           echo 'Home directory is $HOME'
           & "${{ github.workspace }}\build\IfcDocLite.exe" "${{ github.workspace }}\IFC4x3" -FE "${{ env.SHORT_SHA }}"
       - name: Upload schema
-        uses: actions/upload-artifact@v2
+        uses: actions/upload-artifact@v3
         with:
           name: IFC Schema
           path: ${{ github.workspace }}\schema
